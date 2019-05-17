@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+	margin: 20px;
+	padding: 0px;
+
+}
+body{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+header, main, footer, section{
+	border: 5px solid lightgrey;
+}
+
+header{
+	height: 100px;
+}
+
+main{
+	height: 500px;
+
+}
+
+footer{
+	height: 100px;
+
+}
