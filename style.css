@@ -1,29 +1,79 @@
 *{
 	box-sizing: border-box;
-	margin: 20px;
-	padding: 0px;
-
+}
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body{
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
-}
-header, main, footer, section{
-	border: 5px solid lightgrey;
-}
-
-header{
-	height: 100px;
+	text-decoration: none;
+	
 }
 
-main{
-	height: 500px;
+@media only screen and (max-width: 2000px) {
+	#home-button img{
+		width: 200px;
+	}
 
+	main {
+		border: 5px solid red;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		opacity: .7;
+		height: 300px;
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section{
+		height: 100px;
+	}
+
+	section ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	section li{
+		display: inline-block;
+		padding: 0px;
+		font-size: 35px;
+		margin: 0px;
+	}
+
+	section img{
+		width: 50px;
+	}
+
+	#feedback {
+		width: 400px;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#feedback img{
+		width: 50px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.question-form label{
+		display: block;
+		text-align: left;
+
+	}
 }
 
-footer{
-	height: 100px;
+@media only screen and (max-width: 400px) {
+
 
 }

@@ -6,21 +6,30 @@
     <meta name="description" content="Test your knowledge to see if you can be the next Pokemon Master.">
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header id="quiz-logo">
-      <h1>This is where the pokemon logo will go</h1>
-    </header>
 
-    <main class="quiz-template">
-      <h1>This is where the question, and answers will be prompted.</h1>
+  <body>
+    <div id="home-button">
+    <a href="index.html"><img src="pokemon.jpg" alt="Pokemon Logo"></a>
+    </div>
+    
+    <main class="main-box" role="main">
+      <div class="start-quiz">
+        <h1>Do you have what it takes to be a Pokemon Master?</h1>
+        <button id="start-button">BEGIN</button>
+      </div>
     </main>
 
-    <footer class="quiz-scorecard">
-      <h1>This is where the quiz progress, and answer tracker will be located.</h1>
-    </footer>
+    <section class="quiz-scorecard">
+      <ul>
+        <li>Question:<span id="question-number">0</span>/10</li>
+        <li>Caught:<span id="correct-questions">0</span></li>
+      </ul>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
+
 </html>
