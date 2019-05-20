@@ -3,6 +3,7 @@
 *{
 	box-sizing: border-box;
 }
+
 html { 
   background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -18,86 +19,83 @@ body{
 }
 
 /* This styling is to apply for a desktop/laptop computer*/
+#home-button img{
+	width: 200px;
+	margin-bottom: 10px;
+}
 
-@media only screen and (max-width: 1600px) {
-	#home-button img{
-		width: 200px;
-		margin-bottom: 10px;
-	}
+main {
+	border: 5px solid red;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center, space-around;
+	background: rgba(255,255,255,0.8);
+	height: 350px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	main {
-		border: 5px solid red;
-		background-color: white;
-		display: flex;
-		flex-direction: column;
-		justify-content: center, space-around;
-		background: rgba(255,255,255,0.8);
-		height: 350px;
-		width: 600px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+main button {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	background-color: red;
+	color: white;
+	border-radius: 8px;
+}
 
-	main button {
-		width: 300px;
-		height: 40px;
-		font-size: 20px;
-		background-color: red;
-		color: white;
-		border-radius: 8px;
-	}
-
-	main img{
-		width: 100px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
+main img{
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 	
-	fieldset {
-		border: none;
-	}
+fieldset {
+	border: none;
+}
 
-	section{
-		height: 100px;
-	}
+section{
+	height: 100px;
+}
 
-	section ul{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
-	section li{
-		display: inline-block;
-		padding: 0px;
-		font-size: 35px;
-		margin: 0px;
-	}
+section ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+section li{
+	display: inline-block;
+	padding: 0px;
+	font-size: 35px;
+	margin: 0px;
+}
 
-	section img{
-		width: 50px;
-	}
+section img{
+	width: 50px;
+}
 
-	.feedback {
-		width: 400px;
-		height: 300px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.feedback {
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	.feedback img{
-		width: 100px;
-		margin-right: auto;
-		margin-left: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around, center;
-	}
+.feedback img{
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around, center;
+}
 
-	.question-form label{
-		display: block;
-		text-align: left;
-	}
+.question-form label{
+	display: block;
+	text-align: left;
 }
 
 /* This styling is to apply for cellular devices. */
