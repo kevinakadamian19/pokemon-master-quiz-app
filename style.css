@@ -19,6 +19,8 @@ body{
 }
 
 /* This styling is to apply for a desktop/laptop computer*/
+
+@media only screen and (max-width: 6000px) {
 #home-button img{
 	width: 200px;
 	margin-bottom: 10px;
@@ -26,6 +28,7 @@ body{
 
 main {
 	border: 5px solid red;
+	border-radius: 25px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -97,7 +100,7 @@ section img{
 	display: block;
 	text-align: left;
 }
-
+}
 /* This styling is to apply for cellular devices. */
 
 @media only screen and (max-width: 800px) {
@@ -108,6 +111,7 @@ section img{
 
 	main {
 		border: 5px solid red;
+		border-radius: 25px;
 		background-color: white;
 		display: flex;
 		flex-direction: column;
